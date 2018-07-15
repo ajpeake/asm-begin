@@ -4,8 +4,8 @@
 ;   Last update     : 07/11/2018
 ;   Author          : Arthur Peake
 ;   Description     : A simple assembly app for Linux, using NASM 2.13.02,
-;                     demostrating how to convert a string from caps to 
-;					  lower case.
+;                     demostrating how to convert a string from upper case 
+;					  to lower case in memory.
 ;
 ;   Build using these commands:
 ;      nasm -f elf -g -F stabs eatsyscall.asm

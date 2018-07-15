@@ -9,11 +9,8 @@ _start:
 	nop					; This no-op keeps gdb happy...
 ;Put experiments between the two nops...
 
-	mov ax, 067FEh
-	mov bx, ax
-	mov cl, bh
-	mov ch, bl
-	xchg cl, ch
+	pushf
+	pop bx
 
 ;Put experiments between the two nops...
 	nop					; Put test code before this line...
